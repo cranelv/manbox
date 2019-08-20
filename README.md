@@ -8,7 +8,6 @@ Matrix AI Network block chain contracts default config and man address support
 ##### Each network properties add type,dryRun,skipDryRun setting like this:
     development: {
         type = "matrix",
-        dryRun: false,
         skipDryRun: true,
     }
 #### Add manUtils.sol support
