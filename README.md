@@ -1,6 +1,9 @@
 # MAN Box
 
 Matrix AI Network block chain contracts default config and man address support
+## Init man contract
+    cd {yourcontractdir}
+    truffle unbox https://github.com/cranelv/manbox.git
 ## truffle-config
 ##### Each network properties add type,dryRun,skipDryRun setting like this:
     development: {
